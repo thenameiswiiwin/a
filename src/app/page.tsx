@@ -14,7 +14,8 @@ export default function Homepage() {
           variant="secondary"
           size="small"
         >
-          Linear 2022 Release – Built for scale <Highlight>→</Highlight>
+          Linear 2022 Release – Built for scale
+          <Highlight variant="secondary">→</Highlight>
         </Button>
         <HeroTitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
           Linear is a better way <br className="hidden md:block" />
@@ -32,7 +33,7 @@ export default function Homepage() {
           className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:600ms]"
         >
           Get started
-          <Highlight>
+          <Highlight variant="primary">
             <ChevronIcon />
           </Highlight>
         </Button>

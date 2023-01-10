@@ -40,13 +40,10 @@ export const Highlight = ({
 }: {
   children: React.ReactNode;
   className?: string;
-  variant?: 'primary' | 'secondary';
+  variant?: string;
 }) => (
   <span
-    className={clsx(
-      variant === 'primary' ? 'highlight-primary' : 'highlight-secondary',
-      className
-    )}
+    className={clsx(variant === 'primary' ? 'ml-2' : 'highlight', className)}
   >
     {children}
   </span>

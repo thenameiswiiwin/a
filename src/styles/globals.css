@@ -14,12 +14,8 @@
 }
 
 @layer utilities {
-  .highlight-primary {
-    @apply [&_.highlight]:ml-2;
-  }
-
-  .highlight-secondary {
-    @apply [&_.highlight]:bg-white-100 [&_.highlight]:rounded-full [&_.highlight]:px-2 [&_.highlight]:ml-2 [&_.highlight]:-mr-2;
+  .highlight {
+    @apply bg-white-100 rounded-full px-2 ml-2 -mr-2;
   }
 
   .navigation {
