@@ -23,7 +23,7 @@ export const FooterLinks = () => {
               <li key={link.label} className="[&_a]:last:mb-0">
                 <Link
                   href={link.href}
-                  className="mb-3 block text-gray transition-colors hover:text-white"
+                  className="mb-3 block text-gray transition-colors hover:text-white-200"
                 >
                   {link.label}
                 </Link>
