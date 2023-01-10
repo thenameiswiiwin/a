@@ -1,13 +1,12 @@
-import HeroImg from '@assets/images/hero.webp';
 import { Button, Highlight } from '@components/Button';
 import { Container } from '@components/Container';
 import { Hero, HeroSubtitle, HeroTitle } from '@components/Hero';
+import { HeroImage } from '@components/HeroImage';
 import { ChevronIcon } from '@components/icons/chevron';
-import Image from 'next/image';
 
 export default function Homepage() {
   return (
-    <Container className="pt-[6.4rem]">
+    <Container className="overflow-hidden py-[6.4rem]">
       <Hero>
         <Button
           className="translate-y-[-1rem] animate-fade-in opacity-0"
@@ -37,7 +36,7 @@ export default function Homepage() {
             <ChevronIcon />
           </Highlight>
         </Button>
-        <Image src={HeroImg} alt="Hero image" className="mt-[12.8rem]" />
+        <HeroImage />
       </Hero>
     </Container>
   );
