@@ -1,8 +1,8 @@
-import { Button, Highlight } from '@components/Button';
+import { Button, Highlight } from '@components/buttons/Button';
 import { Container } from '@components/Container';
-import { Hero, HeroSubtitle, HeroTitle } from '@components/Hero';
-import { HeroImage } from '@components/HeroImage';
+import { HeroImage } from '@components/hero/HeroImage';
 import { ChevronIcon } from '@components/icons/chevron';
+import { Hero, HeroSubtitle, HeroTitle } from '@components/sections/Hero';
 
 export default function Homepage() {
   return (

@@ -1,8 +1,7 @@
+import { Container } from '@components/Container';
+import { Logo } from '@components/icons/logo';
+import { NavBar } from '@components/nav/NavBar';
 import Link from 'next/link';
-
-import { Container } from './Container';
-import { Logo } from './icons/logo';
-import { Navigation } from './Navigation';
 
 export const Header = () => {
   return (
@@ -11,7 +10,7 @@ export const Header = () => {
         <Link className="flex items-center text-md" href="/">
           <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> Linear
         </Link>
-        <Navigation />
+        <NavBar />
       </Container>
     </header>
   );

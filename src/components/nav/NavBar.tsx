@@ -1,13 +1,13 @@
 'use client';
 
+import { AuthButtons } from '@components/buttons/AuthButtons';
+import { HamburgerButton } from '@components/buttons/HamburgerButton';
 import clsx from 'clsx';
 import { useEffect, useState } from 'react';
 
-import { AuthButtons } from './AuthButtons';
-import { HamburgerButton } from './HamburgerButton';
 import { NavLinks } from './NavLinks';
 
-export const Navigation = () => {
+export const NavBar = () => {
   const [hamburgerMenuIsOpen, setHamburgerMenuIsOpen] = useState(false);
 
   useEffect(() => {

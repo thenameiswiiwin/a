@@ -1,6 +1,5 @@
+import { HamburgerIcon } from '@components/icons/hamburger';
 import type { MouseEventHandler } from 'react';
-
-import { HamburgerIcon } from './icons/hamburger';
 
 interface HamburgerButtonProps {
   handleClick: MouseEventHandler<HTMLButtonElement> | undefined;
