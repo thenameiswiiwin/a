@@ -109,7 +109,6 @@ export const HeroImage = () => {
             inView ? 'opacity-100' : 'opacity-0'
           )}
         />
-        ;
       </div>
     </div>
   );
