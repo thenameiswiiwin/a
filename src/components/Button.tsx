@@ -16,11 +16,9 @@ const ButtonClasses = cva('rounded-full inline-flex items-center', {
     variant: {
       primary: [
         'bg-primary-gradient hover:text-shadow hover:shadow-primary transition-[shadow,text-shadow]',
-        '[&_.highlight]:ml-2',
       ],
       secondary: [
         'text-white-200 bg-white bg-opacity-10 border border-white-100 backdrop-filter-[12px] hover:bg-opacity-20 transition-colors ease-in',
-        '[&_.highlight]:bg-white-100 [&_.highlight]:rounded-full [&_.highlight]:px-2 [&_.highlight]:ml-2 [&_.highlight]:-mr-2',
       ],
     },
     size: {
@@ -38,10 +36,21 @@ const ButtonClasses = cva('rounded-full inline-flex items-center', {
 export const Highlight = ({
   children,
   className,
+  variant,
 }: {
   children: React.ReactNode;
   className?: string;
-}) => <span className={clsx('highlight', className)}>{children}</span>;
+  variant?: 'primary' | 'secondary';
+}) => (
+  <span
+    className={clsx(
+      variant === 'primary' ? 'highlight-primary' : 'highlight-secondary',
+      className
+    )}
+  >
+    {children}
+  </span>
+);
 
 export const Button = ({
   children,

@@ -74,6 +74,7 @@ module.exports = {
     },
     transitionDelay: {
       0: '0ms',
+      500: '500ms',
     },
     keyframes: {
       'fade-in': {
