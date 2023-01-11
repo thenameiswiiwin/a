@@ -12,4 +12,3 @@ export const MercuryLogo = ({ className }: { className?: string }) => (
     ></path>
   </svg>
 );
-

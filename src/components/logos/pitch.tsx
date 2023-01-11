@@ -18,4 +18,3 @@ export const PitchLogo = ({ className }: { className?: string }) => (
     ></path>
   </svg>
 );
-
