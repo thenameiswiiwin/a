@@ -30,6 +30,7 @@ module.exports = {
         100: '#222326',
         200: '#b4bcd0',
       },
+      purple: 'rgba(120, 119, 198, 0.4)',
       transparent: 'transparent',
       white: {
         DEFAULT: '#fff',

@@ -1,9 +1,11 @@
 import { Button, Highlight } from '@components/buttons/Button';
 import { Container } from '@components/Container';
 import { HeroImage } from '@components/hero/HeroImage';
-import { ChevronIcon } from '@components/svg/icons/chevron';
 import { Clients } from '@components/sections/Clients';
 import { Hero, HeroSubtitle, HeroTitle } from '@components/sections/Hero';
+import { ChevronIcon } from '@components/svg/icons/chevron';
+import { StarsIllustration } from '@components/svg/illustrations/Stars';
+import clsx from 'clsx';
 
 export default function Homepage() {
   return (
@@ -47,6 +49,15 @@ export default function Homepage() {
       <Container>
         <Clients />
       </Container>
+      <div
+        className={clsx(
+          'mask-radial-faded relative my-[-12.8rem] h-[60rem] overflow-hidden',
+          '[--color:#7877C6] before:absolute before:inset-0 before:bg-radial-faded before:opacity-[0.4]',
+          'after:absolute after:top-1/2 after:-left-1/2 after:h-[142.8%] after:w-[200%] after:rounded-[50%] after:border-t after:border-purple after:bg-background'
+        )}
+      >
+        <StarsIllustration />
+      </div>
     </>
   );
 }

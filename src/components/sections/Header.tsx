@@ -1,6 +1,6 @@
 import { Container } from '@components/Container';
-import { Logo } from '@components/svg/icons/logo';
 import { NavBar } from '@components/nav/NavBar';
+import { Logo } from '@components/svg/icons/logo';
 import Link from 'next/link';
 
 export const Header = () => {
