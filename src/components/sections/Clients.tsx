@@ -1,15 +1,15 @@
-import { AlanLogo } from '@components/logos/alan';
-import { ArcLogo } from '@components/logos/arc';
-import { CashAppLogo } from '@components/logos/cashapp';
-import { DescriptLogo } from '@components/logos/descript';
-import { LoomLogo } from '@components/logos/loom';
-import { MercuryLogo } from '@components/logos/mercury';
-import { OpenSeaLogo } from '@components/logos/opensea';
-import { PitchLogo } from '@components/logos/pitch';
-import { RampLogo } from '@components/logos/ramp';
-import { RaycastLogo } from '@components/logos/raycast';
-import { RetoolLogo } from '@components/logos/retool';
-import { VercelLogo } from '@components/logos/vercel';
+import { AlanLogo } from '@components/svg/logos/alan';
+import { ArcLogo } from '@components/svg/logos/arc';
+import { CashAppLogo } from '@components/svg/logos/cashapp';
+import { DescriptLogo } from '@components/svg/logos/descript';
+import { LoomLogo } from '@components/svg/logos/loom';
+import { MercuryLogo } from '@components/svg/logos/mercury';
+import { OpenSeaLogo } from '@components/svg/logos/opensea';
+import { PitchLogo } from '@components/svg/logos/pitch';
+import { RampLogo } from '@components/svg/logos/ramp';
+import { RaycastLogo } from '@components/svg/logos/raycast';
+import { RetoolLogo } from '@components/svg/logos/retool';
+import { VercelLogo } from '@components/svg/logos/vercel';
 
 export const Clients = () => {
   return (

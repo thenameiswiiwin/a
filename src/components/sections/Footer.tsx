@@ -1,9 +1,9 @@
 import { Container } from '@components/Container';
 import { FooterLinks } from '@components/footer/FooterLinks';
-import { GithubIcon } from '@components/icons/github';
-import { Logo } from '@components/icons/logo';
-import { SlackIcon } from '@components/icons/slack';
-import { TwitterIcon } from '@components/icons/twitter';
+import { GithubIcon } from '@components/svg/icons/github';
+import { Logo } from '@components/svg/icons/logo';
+import { SlackIcon } from '@components/svg/icons/slack';
+import { TwitterIcon } from '@components/svg/icons/twitter';
 
 export const Footer = () => {
   return (

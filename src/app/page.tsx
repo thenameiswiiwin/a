@@ -1,7 +1,7 @@
 import { Button, Highlight } from '@components/buttons/Button';
 import { Container } from '@components/Container';
 import { HeroImage } from '@components/hero/HeroImage';
-import { ChevronIcon } from '@components/icons/chevron';
+import { ChevronIcon } from '@components/svg/icons/chevron';
 import { Clients } from '@components/sections/Clients';
 import { Hero, HeroSubtitle, HeroTitle } from '@components/sections/Hero';
 

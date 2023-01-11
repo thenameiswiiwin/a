@@ -1,4 +1,4 @@
-import { HamburgerIcon } from '@components/icons/hamburger';
+import { HamburgerIcon } from '@components/svg/icons/hamburger';
 import type { MouseEventHandler } from 'react';
 
 interface HamburgerButtonProps {
