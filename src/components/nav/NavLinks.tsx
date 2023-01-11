@@ -6,16 +6,10 @@ interface NavLinksProps {
   hamburgerMenuIsOpen: boolean;
 }
 
-interface LinkProps {
-  label: string;
-  href: string;
-  className?: string;
-}
-
 export const NavLinks = ({ hamburgerMenuIsOpen }: NavLinksProps) => {
   return (
     <ul className="flex h-full flex-col ease-in md:flex-row md:items-center">
-      {Links.map((link: LinkProps) => (
+      {Links.map((link) => (
         <li
           key={link.label}
           className={clsx(

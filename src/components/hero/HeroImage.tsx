@@ -16,9 +16,10 @@ export const HeroImage = () => {
       <div
         className={clsx(
           'relative rounded-lg border border-white-100 bg-white bg-opacity-[0.01] bg-hero-gradient',
-          inView ? 'animate-image-rotate' : '[transform:rotateX(25deg)]',
           'before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-hero-glow before:opacity-0 before:[filter:blur(120px)]',
-          inView && 'before:animate-image-glow'
+          inView
+            ? 'animate-image-rotate before:animate-image-glow'
+            : '[transform:rotateX(25deg)]'
         )}
       >
         <HeroImageLines inView={inView} />
